@@ -2288,6 +2288,136 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "RES:R-1k-0402-62.mW-1%"
+			(pin_numbers
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 1.778 1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "1k"
+				(at 3.048 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+				(at 0 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "${KICAD_DATASHEET}/Resistors_SMD_UNI-ROYAL-Uniroyal-Elec.pdf"
+				(at 0 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Size" "0402"
+				(at 0 0 90)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+				)
+			)
+			(property "Power Rating" "62.5mW"
+				(at 5.588 -1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part #" "C11702"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R-1k-0402-62.mW-1%_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R-1k-0402-62.mW-1%_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "RES:R-200k-0402-62.5mW-1%"
 			(pin_numbers
 				(hide yes)
@@ -2926,6 +3056,260 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SW:SW-GEN-TS-1187A"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW-GEN-TS-1187A"
+				(at 0.635 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "SW:SW-PUSH-DPST-XKS-TS-1187A"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "${KICAD_DATASHEET}/SW_XKB-Connectivity-TS-1187A-B-A-B.pdf"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part #" "C318884"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW-GEN-TS-1187A_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.032 -5.08)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.254) (xy 1.27 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -4.826) (xy 1.27 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 0 -3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -5.08)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW-GEN-TS-1187A_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4033,12 +4417,6 @@
 		(uuid "1f41fb90-a053-4093-b455-4791cee2c3e2")
 	)
 	(junction
-		(at 124.46 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "291be0f8-cb79-41be-8972-d3d81e1f636f")
-	)
-	(junction
 		(at 210.82 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4049,6 +4427,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "410318b3-c1f2-42c0-8c57-a5daa1e95239")
+	)
+	(junction
+		(at 59.69 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "427eba0d-e4ce-4b4b-a96e-3edc1236ce08")
 	)
 	(junction
 		(at 157.48 92.71)
@@ -4087,6 +4471,12 @@
 		(uuid "5971af83-9ca8-42b4-80e3-61c05fef9d20")
 	)
 	(junction
+		(at 124.46 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "608cfefd-867e-4b74-9331-6026a990d55e")
+	)
+	(junction
 		(at 48.26 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4121,6 +4511,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9108f0ba-726b-4f2a-9fe2-0cb636e94788")
+	)
+	(junction
+		(at 54.61 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "956f5dd4-86eb-42cc-aa9f-340ed4ba4c70")
 	)
 	(junction
 		(at 228.6 74.93)
@@ -4159,6 +4555,10 @@
 		(uuid "fb8e873b-f472-4b51-bcf8-d7a60d897d42")
 	)
 	(no_connect
+		(at 59.69 111.76)
+		(uuid "032b8564-4435-47a9-90ef-9901b0a33f6f")
+	)
+	(no_connect
 		(at 152.4 102.87)
 		(uuid "32d858c3-0db0-414a-8b1a-45a482c87bbf")
 	)
@@ -4173,6 +4573,10 @@
 	(no_connect
 		(at 152.4 100.33)
 		(uuid "c2760990-924d-4e09-b2b3-6c3570181009")
+	)
+	(no_connect
+		(at 54.61 101.6)
+		(uuid "dd5dba0a-374d-4f19-8933-d57c11c55b81")
 	)
 	(wire
 		(pts
@@ -4216,7 +4620,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 100.33) (xy 121.92 100.33)
+			(xy 124.46 95.25) (xy 121.92 95.25)
 		)
 		(stroke
 			(width 0)
@@ -4226,7 +4630,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 88.9) (xy 132.08 90.17)
+			(xy 132.08 87.63) (xy 132.08 88.9)
 		)
 		(stroke
 			(width 0)
@@ -4236,17 +4640,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 90.17) (xy 121.92 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "136e4d46-fc90-41c3-a3a2-e3ed97c63f97")
-	)
-	(wire
-		(pts
-			(xy 43.18 114.3) (xy 64.77 114.3)
+			(xy 43.18 114.3) (xy 54.61 114.3)
 		)
 		(stroke
 			(width 0)
@@ -4256,7 +4650,17 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 99.06) (xy 121.92 100.33)
+			(xy 54.61 114.3) (xy 64.77 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c4f1292-a388-4c6e-8d62-fcddf4b99dd6")
+	)
+	(wire
+		(pts
+			(xy 121.92 95.25) (xy 121.92 93.98)
 		)
 		(stroke
 			(width 0)
@@ -4273,6 +4677,16 @@
 			(type default)
 		)
 		(uuid "1dfaf834-c759-451f-aa7a-17474677a4ee")
+	)
+	(wire
+		(pts
+			(xy 59.69 99.06) (xy 77.47 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e15e4a7-8f55-42ba-a007-27bf7a3acb3a")
 	)
 	(wire
 		(pts
@@ -4356,7 +4770,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 106.68) (xy 134.62 107.95)
+			(xy 142.24 106.68) (xy 142.24 107.95)
 		)
 		(stroke
 			(width 0)
@@ -4383,6 +4797,16 @@
 			(type default)
 		)
 		(uuid "3aae15e0-c08b-487a-8844-0972d5c3a8c9")
+	)
+	(wire
+		(pts
+			(xy 124.46 95.25) (xy 124.46 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d6ff760-f3a1-47f2-ae2f-d47971c6010b")
 	)
 	(wire
 		(pts
@@ -4476,7 +4900,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 69.85) (xy 121.92 72.39)
+			(xy 121.92 69.85) (xy 121.92 71.12)
 		)
 		(stroke
 			(width 0)
@@ -4516,7 +4940,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 107.95) (xy 165.1 107.95)
+			(xy 142.24 107.95) (xy 165.1 107.95)
 		)
 		(stroke
 			(width 0)
@@ -4546,7 +4970,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 101.6) (xy 58.42 99.06)
+			(xy 49.53 101.6) (xy 49.53 99.06)
 		)
 		(stroke
 			(width 0)
@@ -4556,7 +4980,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 101.6) (xy 134.62 100.33)
+			(xy 142.24 101.6) (xy 142.24 100.33)
 		)
 		(stroke
 			(width 0)
@@ -4686,6 +5110,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 101.6) (xy 59.69 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77a0e7d6-a7f0-490a-9e87-e2a784230251")
+	)
+	(wire
+		(pts
 			(xy 135.89 74.93) (xy 165.1 74.93)
 		)
 		(stroke
@@ -4716,7 +5150,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 106.68) (xy 124.46 110.49)
+			(xy 124.46 109.22) (xy 124.46 110.49)
 		)
 		(stroke
 			(width 0)
@@ -4826,7 +5260,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 99.06) (xy 77.47 99.06)
+			(xy 49.53 99.06) (xy 59.69 99.06)
 		)
 		(stroke
 			(width 0)
@@ -4853,6 +5287,16 @@
 			(type default)
 		)
 		(uuid "8bff51e6-b313-4ed3-b92c-8a13dd866d94")
+	)
+	(wire
+		(pts
+			(xy 54.61 111.76) (xy 54.61 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f9fb218-d932-49e2-99ff-82fd21a91f6a")
 	)
 	(wire
 		(pts
@@ -5006,6 +5450,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 100.33) (xy 142.24 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b52c50c5-293c-4068-9c9f-d88e05e9dc9f")
+	)
+	(wire
+		(pts
 			(xy 148.59 123.19) (xy 148.59 120.65)
 		)
 		(stroke
@@ -5076,7 +5530,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 100.33) (xy 134.62 100.33)
+			(xy 124.46 95.25) (xy 130.81 95.25)
 		)
 		(stroke
 			(width 0)
@@ -5113,16 +5567,6 @@
 			(type default)
 		)
 		(uuid "c80f3da6-34a1-408d-97a2-79287ef7c9a3")
-	)
-	(wire
-		(pts
-			(xy 124.46 100.33) (xy 124.46 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9c6c9bf-693b-4480-98b5-53f5a00fb39a")
 	)
 	(wire
 		(pts
@@ -5216,7 +5660,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 81.28) (xy 132.08 83.82)
+			(xy 132.08 81.28) (xy 132.08 82.55)
 		)
 		(stroke
 			(width 0)
@@ -5256,7 +5700,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 106.68) (xy 58.42 107.95)
+			(xy 49.53 106.68) (xy 49.53 107.95)
 		)
 		(stroke
 			(width 0)
@@ -5296,6 +5740,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 76.2) (xy 121.92 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb7f96e1-3046-45a2-bafd-e606cd08f1ce")
+	)
+	(wire
+		(pts
 			(xy 55.88 93.98) (xy 64.77 93.98)
 		)
 		(stroke
@@ -5313,6 +5767,16 @@
 			(type default)
 		)
 		(uuid "ec124be1-e0c3-4a63-abcd-815d4af727a4")
+	)
+	(wire
+		(pts
+			(xy 124.46 101.6) (xy 124.46 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec9d815e-1045-4526-a122-051ec52afe75")
 	)
 	(wire
 		(pts
@@ -7078,7 +7542,7 @@
 		(uuid "e8cd45e6-5833-41b0-a9da-d3a23c1c3362")
 	)
 	(label "VSYS"
-		(at 121.92 99.06 0)
+		(at 121.92 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7229,6 +7693,100 @@
 			(justify right)
 		)
 		(uuid "f6ef0fbf-7e2c-4967-ac7d-584a86d1b558")
+	)
+	(symbol
+		(lib_id "RES:R-1k-0402-62.mW-1%")
+		(at 130.81 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "032834ed-b9d2-46cf-8eb8-77918eb5a457")
+		(property "Reference" "R307"
+			(at 132.588 96.266 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 133.858 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 130.81 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${KICAD_DATASHEET}/Resistors_SMD_UNI-ROYAL-Uniroyal-Elec.pdf"
+			(at 130.81 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 130.81 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "0402"
+			(at 130.81 97.79 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Power Rating" "62.5mW"
+			(at 136.398 99.568 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C11702"
+			(at 130.81 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5c3e54ec-bd59-48ad-9e45-750192f110b9")
+		)
+		(pin "1"
+			(uuid "e4642929-ec4b-4dfd-b403-35d8f7aa2189")
+		)
+		(instances
+			(project "Sensor_Node_Base"
+				(path "/5ca1c9fd-74c0-42e6-8cfd-fb6853b61661/1695f9b9-59bc-4acf-acb3-ecb922960a99"
+					(reference "R307")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -7718,6 +8276,101 @@
 			(project "Sensor_Node_Base_V1.0"
 				(path "/5ca1c9fd-74c0-42e6-8cfd-fb6853b61661/1695f9b9-59bc-4acf-acb3-ecb922960a99"
 					(reference "TP302")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RES:R-1k-0402-62.mW-1%")
+		(at 124.46 99.06 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "27bc9456-13e5-471c-a372-5061ecf8d303")
+		(property "Reference" "R308"
+			(at 122.682 97.536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 121.412 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 124.46 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${KICAD_DATASHEET}/Resistors_SMD_UNI-ROYAL-Uniroyal-Elec.pdf"
+			(at 124.46 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "0402"
+			(at 124.46 99.06 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Power Rating" "62.5mW"
+			(at 118.872 100.838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C11702"
+			(at 124.46 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "14376698-c00f-497b-84cd-d4069b1861d3")
+		)
+		(pin "1"
+			(uuid "75fc491a-51eb-47eb-bf01-8296254793fb")
+		)
+		(instances
+			(project ""
+				(path "/5ca1c9fd-74c0-42e6-8cfd-fb6853b61661/1695f9b9-59bc-4acf-acb3-ecb922960a99"
+					(reference "R308")
 					(unit 1)
 				)
 			)
@@ -8276,7 +8929,7 @@
 	)
 	(symbol
 		(lib_id "D_LED:LED-GREEN-0603-AK")
-		(at 124.46 104.14 90)
+		(at 124.46 106.68 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8285,15 +8938,6 @@
 		(fields_autoplaced yes)
 		(uuid "42f1ca3f-b859-49b7-865c-70754915f6ba")
 		(property "Reference" "D301"
-			(at 127 101.5364 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "GREEN"
 			(at 127 104.0764 90)
 			(effects
 				(font
@@ -8302,34 +8946,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
-			(at 118.11 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "${KICAD_DATASHEET}/C84267.pdf"
-			(at 115.57 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 124.46 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Size" "0603"
+		(property "Value" "GREEN"
 			(at 127 106.6164 90)
 			(effects
 				(font
@@ -8338,8 +8955,44 @@
 				(justify right)
 			)
 		)
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
+			(at 118.11 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${KICAD_DATASHEET}/C84267.pdf"
+			(at 115.57 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "0603"
+			(at 127 109.1564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(property "LCSC Part #" "C84267"
-			(at 120.65 99.06 0)
+			(at 120.65 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8878,7 +9531,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 132.08 90.17 0)
+		(at 132.08 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8886,7 +9539,7 @@
 		(dnp no)
 		(uuid "51864316-eee2-461d-9f5d-57302c5a5aea")
 		(property "Reference" "#PWR305"
-			(at 132.08 96.52 0)
+			(at 132.08 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8895,7 +9548,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 132.08 93.98 0)
+			(at 132.08 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8903,7 +9556,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 90.17 0)
+			(at 132.08 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8912,7 +9565,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 90.17 0)
+			(at 132.08 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8921,7 +9574,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 132.08 90.17 0)
+			(at 132.08 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8943,7 +9596,7 @@
 	)
 	(symbol
 		(lib_id "CAP:C-1uF-0402-25V-X5R-10%")
-		(at 121.92 74.93 0)
+		(at 121.92 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8952,7 +9605,7 @@
 		(fields_autoplaced yes)
 		(uuid "597527cb-8d7e-4ab9-a99c-d3c0a668c394")
 		(property "Reference" "C302"
-			(at 124.46 72.3962 0)
+			(at 124.46 71.1262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8961,7 +9614,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 124.46 74.9362 0)
+			(at 124.46 73.6662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8970,15 +9623,6 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 121.92 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "${KICAD_DATASHEET}/MLCC_Samsung-Electro-Mechanics.pdf"
 			(at 121.92 67.31 0)
 			(effects
 				(font
@@ -8987,8 +9631,17 @@
 				(hide yes)
 			)
 		)
+		(property "Datasheet" "${KICAD_DATASHEET}/MLCC_Samsung-Electro-Mechanics.pdf"
+			(at 121.92 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Description" ""
-			(at 121.92 74.93 0)
+			(at 121.92 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8997,7 +9650,7 @@
 			)
 		)
 		(property "Size" "0402"
-			(at 120.142 76.454 0)
+			(at 120.142 75.184 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9006,7 +9659,7 @@
 			)
 		)
 		(property "Voltage" "25V"
-			(at 124.46 77.4762 0)
+			(at 124.46 76.2062 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9015,7 +9668,7 @@
 			)
 		)
 		(property "LCSC Part #" "C52923"
-			(at 127 69.85 0)
+			(at 127 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9105,7 +9758,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 58.42 107.95 0)
+		(at 49.53 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9113,7 +9766,7 @@
 		(dnp no)
 		(uuid "60740eab-0064-42a5-9658-b0e03e2f3781")
 		(property "Reference" "#PWR301"
-			(at 58.42 114.3 0)
+			(at 49.53 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9122,7 +9775,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 58.42 111.76 0)
+			(at 49.53 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9130,7 +9783,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 107.95 0)
+			(at 49.53 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9139,7 +9792,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 107.95 0)
+			(at 49.53 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9148,7 +9801,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 58.42 107.95 0)
+			(at 49.53 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9170,7 +9823,7 @@
 	)
 	(symbol
 		(lib_id "CAP:C-1uF-0402-25V-X5R-10%")
-		(at 132.08 86.36 0)
+		(at 132.08 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9179,7 +9832,7 @@
 		(fields_autoplaced yes)
 		(uuid "6949aca2-4c7d-42ea-831b-0954d9da979f")
 		(property "Reference" "C303"
-			(at 134.62 83.8262 0)
+			(at 134.62 82.5562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9188,7 +9841,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 134.62 86.3662 0)
+			(at 134.62 85.0962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9197,15 +9850,6 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 132.08 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "${KICAD_DATASHEET}/MLCC_Samsung-Electro-Mechanics.pdf"
 			(at 132.08 78.74 0)
 			(effects
 				(font
@@ -9214,8 +9858,17 @@
 				(hide yes)
 			)
 		)
+		(property "Datasheet" "${KICAD_DATASHEET}/MLCC_Samsung-Electro-Mechanics.pdf"
+			(at 132.08 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Description" ""
-			(at 132.08 86.36 0)
+			(at 132.08 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9224,7 +9877,7 @@
 			)
 		)
 		(property "Size" "0402"
-			(at 130.302 87.884 0)
+			(at 130.302 86.614 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9233,7 +9886,7 @@
 			)
 		)
 		(property "Voltage" "25V"
-			(at 134.62 88.9062 0)
+			(at 134.62 87.6362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9242,7 +9895,7 @@
 			)
 		)
 		(property "LCSC Part #" "C52923"
-			(at 137.16 81.28 0)
+			(at 137.16 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9835,7 +10488,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 121.92 90.17 0)
+		(at 121.92 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9843,7 +10496,7 @@
 		(dnp no)
 		(uuid "acdc68fa-9eeb-4505-b0ac-75ccdfc6cdf5")
 		(property "Reference" "#PWR303"
-			(at 121.92 96.52 0)
+			(at 121.92 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9852,7 +10505,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 121.92 93.98 0)
+			(at 125.73 79.248 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9860,7 +10513,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 90.17 0)
+			(at 121.92 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9869,7 +10522,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 90.17 0)
+			(at 121.92 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9878,7 +10531,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 121.92 90.17 0)
+			(at 121.92 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9893,6 +10546,89 @@
 			(project "Sensor_Node_Base_V1.0"
 				(path "/5ca1c9fd-74c0-42e6-8cfd-fb6853b61661/1695f9b9-59bc-4acf-acb3-ecb922960a99"
 					(reference "#PWR303")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SW:SW-GEN-TS-1187A")
+		(at 54.61 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "af379eff-ea20-4b53-a5e4-39cdcdbf72d9")
+		(property "Reference" "SW301"
+			(at 52.07 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW-GEN-TS-1187A"
+			(at 48.895 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SW:SW-PUSH-DPST-XKS-TS-1187A"
+			(at 45.72 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${KICAD_DATASHEET}/SW_XKB-Connectivity-TS-1187A-B-A-B.pdf"
+			(at 50.165 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 54.61 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C318884"
+			(at 46.99 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "04a8f47b-f755-4579-8b3b-6fa189ff5db2")
+		)
+		(pin "1"
+			(uuid "839d8f66-0860-452c-866e-59cce91e0529")
+		)
+		(pin "4"
+			(uuid "d5c390c6-ba0c-476a-9044-009c62aeb441")
+		)
+		(pin "3"
+			(uuid "ac4f17b1-23ed-4d10-85b8-2dcd389a5508")
+		)
+		(instances
+			(project ""
+				(path "/5ca1c9fd-74c0-42e6-8cfd-fb6853b61661/1695f9b9-59bc-4acf-acb3-ecb922960a99"
+					(reference "SW301")
 					(unit 1)
 				)
 			)
@@ -10030,7 +10766,7 @@
 	)
 	(symbol
 		(lib_id "D_LED:LED-RED-0603-AK")
-		(at 134.62 104.14 90)
+		(at 142.24 104.14 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10039,7 +10775,7 @@
 		(fields_autoplaced yes)
 		(uuid "c3860cfb-013a-4e6f-9f25-d9140af4f879")
 		(property "Reference" "D302"
-			(at 137.16 101.5364 90)
+			(at 144.78 101.5364 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10048,7 +10784,7 @@
 			)
 		)
 		(property "Value" "RED"
-			(at 137.16 104.0764 90)
+			(at 144.78 104.0764 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10057,7 +10793,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
-			(at 120.65 105.41 0)
+			(at 128.27 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10066,7 +10802,7 @@
 			)
 		)
 		(property "Datasheet" "${KICAD_DATASHEET}/LED_Everlight-Elec.pdf"
-			(at 134.62 104.14 0)
+			(at 142.24 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10075,7 +10811,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 134.62 104.14 0)
+			(at 142.24 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10084,7 +10820,7 @@
 			)
 		)
 		(property "Size" "0603"
-			(at 137.16 106.6164 90)
+			(at 144.78 106.6164 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10093,7 +10829,7 @@
 			)
 		)
 		(property "LCSC Part #" "C2286"
-			(at 124.46 100.33 0)
+			(at 132.08 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10279,7 +11015,7 @@
 	)
 	(symbol
 		(lib_id "RES:R-2k-0402-62.5mW-1%")
-		(at 58.42 104.14 0)
+		(at 49.53 104.14 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10288,7 +11024,7 @@
 		(dnp no)
 		(uuid "cfe5b955-2f79-4fcb-955b-81cc2995f249")
 		(property "Reference" "R302"
-			(at 55.88 101.5999 0)
+			(at 46.99 101.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10297,7 +11033,7 @@
 			)
 		)
 		(property "Value" "2k"
-			(at 55.88 104.1399 0)
+			(at 46.99 104.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10306,7 +11042,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 58.42 90.17 0)
+			(at 49.53 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10315,7 +11051,7 @@
 			)
 		)
 		(property "Datasheet" "${KICAD_DATASHEET}/Resistors_SMD_UNI-ROYAL-Uniroyal-Elec.pdf"
-			(at 58.42 92.71 0)
+			(at 49.53 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10324,7 +11060,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 58.42 104.14 0)
+			(at 49.53 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10333,7 +11069,7 @@
 			)
 		)
 		(property "Size" "0402"
-			(at 58.42 104.14 90)
+			(at 49.53 104.14 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -10342,7 +11078,7 @@
 			)
 		)
 		(property "Power Rating" "62.5mW"
-			(at 55.88 106.6799 0)
+			(at 46.99 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10351,7 +11087,7 @@
 			)
 		)
 		(property "LCSC Part #" "C4109"
-			(at 58.42 95.25 0)
+			(at 49.53 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)

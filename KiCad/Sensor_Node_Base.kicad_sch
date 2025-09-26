@@ -8,6 +8,7 @@
 		(title "Sensor_Node_Base")
 		(date "2025-04-21")
 		(rev "V2.00")
+		(company "Nightshadow1258")
 	)
 	(lib_symbols
 		(symbol "CON:CON-SM02B-ZESS-TB"
@@ -3892,7 +3893,7 @@
 			)
 		)
 		(instances
-			(project "Sensor_Node_Base_V1.0"
+			(project "Sensor_Node_Base"
 				(path "/5ca1c9fd-74c0-42e6-8cfd-fb6853b61661"
 					(page "3")
 				)
@@ -4054,7 +4055,7 @@
 			)
 		)
 		(instances
-			(project "Sensor_Node_Base_V1.0"
+			(project "Sensor_Node_Base"
 				(path "/5ca1c9fd-74c0-42e6-8cfd-fb6853b61661"
 					(page "2")
 				)
